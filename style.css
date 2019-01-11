@@ -1,0 +1,129 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+body {
+  background-color: White;
+}
+
+header {
+  background-color: Silver;
+  border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+iframe {
+  margin-top: 100px;
+}
+
+main {
+  margin: 2% 5%;
+}
+
+h1 {
+  color: Black;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-left: 2em;
+  margin-top: 1%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+li {
+  float: left;
+  margin: 0 5%;
+}
+
+li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gamelist li {
+  margin: 1% auto;
+  width: 48%;
+}
+
+.gamelist li:hover {
+  background-color: LightGray;
+  border-radius: 20px;
+}
+
+.game {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  margin: 3% 0;
+  margin-top: 1px;
+}
+
+.info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar li{
+  border-radius: 10px 10px 0 0;
+  padding: 1%
+}
+
+.navbar li:hover{
+  background-color: LightGray;
+}
+
+img {
+  width: 350px;
+  height: 450px;
+}
+
+p {
+  line-height: 25px;
+}
+
+.pop {
+  font-size: 25px;
+}
+
+.home {
+  margin-top: 20px;
+}
+
+.home a {
+  text-decoration: none;
+  background-color: silver;
+  border-radius: 50px;
+  padding: 10px;
+  color: black;
+}
+
+.home a:hover {
+  text-decoration: none;
+  background-color: LightGray;
+  border-radius: 50px;
+  padding: 10px;
+  color: black;
+}
