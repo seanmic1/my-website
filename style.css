@@ -127,3 +127,21 @@ p {
   padding: 10px;
   color: black;
 }
+
+body.about {
+  background-image: url("images/crowd.webp");
+  background-color: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+main.about{
+  margin-top: 100px;
+  background-color: rgba(192,192,192, 0.8);
+  padding: 10px 20px;
+}
+
+.radio p{
+  display: inline;
+}

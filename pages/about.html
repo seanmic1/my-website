@@ -5,7 +5,7 @@
   <link type="text/css" rel="stylesheet" href="../style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
-<body>
+<body class="about">
   <header>
     <h1>
       Esports World
@@ -18,8 +18,24 @@
       <li><a href="#">About Us</a></li>
     </ul>
   </header>
-  <main>
-    
+  <main class="about">
+    <h2>Who are we?</h2>
+    <p> We are an organization dedicated to giving you the best news, updates, and drama of all esports. </p>
+    <h3> Send us your feedback! </h3>
+    <fieldset name="feedback">
+    <form action="webpage-URL" method="POST" name="feedback">
+      <p>Your Name</p> <input type="text" name="Name">
+      <p>Date of Birth</p> <input type="date" name="dob">
+      <div class="radio">
+        <p>Male</p> <input type="radio" name="gender" value="m">
+        <p>Female</p> <input type="radio" name="gender" value="f">
+     </div>
+     <p>Write down any comments of suggestions</p><textarea name="comments" rows="8" cols="40">
+     </textarea>
+     <br>
+     <input type="submit" value="Submit">
+    </form>
+  </fieldset>
   </main>
   </body>
 </html>
