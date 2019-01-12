@@ -128,6 +128,10 @@ p {
   color: black;
 }
 
+.marginfix {
+  margin-top: 100px;
+}
+
 body.about {
   background-image: url("images/crowd.webp");
   background-color: gray;
